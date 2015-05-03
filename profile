@@ -1,3 +1,5 @@
+# Ubuntu boilerplate.
+#
 # ~/.profile: executed by the command interpreter for login shells.
 # This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
 # exists.
@@ -20,6 +22,7 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+# end Ubuntu boilerplate.
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
