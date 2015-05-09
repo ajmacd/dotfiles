@@ -7,13 +7,14 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 Plugin 'rust-lang/rust.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 filetype plugin indent on
 
 syntax enable
-colorscheme desert
 set background=dark
+colorscheme solarized
 
 set tabstop=4
 set shiftwidth=4
@@ -23,10 +24,6 @@ set ruler
 " Use Google style conventions for C++.
 autocmd Filetype cpp setlocal ts=2 sw=2 expandtab
 
-
-"set backspace=indent,eol,start
-"set ttyfast
-"set title
 set list listchars=tab:>-,trail:·
 
 " Searching
