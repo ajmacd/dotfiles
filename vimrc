@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'rust-lang/rust.vim'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'sickill/vim-monokai'
 
 call vundle#end()
 filetype plugin indent on
