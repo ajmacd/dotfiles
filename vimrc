@@ -6,9 +6,11 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-Plugin 'rust-lang/rust.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'sickill/vim-monokai'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()
 filetype plugin indent on
@@ -44,3 +46,7 @@ set linebreak
 " Show partial commands
 set showcmd
 set wildmenu
+
+if filereadable($HOME . "/.vimrc_local")
+    source ~/.vimrc_local
+endif
