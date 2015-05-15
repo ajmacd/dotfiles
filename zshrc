@@ -1,15 +1,13 @@
 source ~/.zsh/antigen/antigen.zsh
 
-antigen use oh-my-zsh
-antigen bundle brew
-antigen bundle git
-antigen bundle vi-mode
-
+antigen bundle sindresorhus/pure
+antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
-antigen theme blinks
-
 antigen apply
+
+# Pure theme settings.
+export PURE_GIT_UNTRACKED_DIRTY=0
 
 export VISUAL=vim
 export EDITOR="$VISUAL"

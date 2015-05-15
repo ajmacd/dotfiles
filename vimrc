@@ -31,7 +31,7 @@ set list listchars=tab:>-,trail:·
 
 " Searching
 set incsearch
-"set ignorecase
+set ignorecase
 set smartcase
 
 set backup
