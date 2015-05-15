@@ -20,6 +20,7 @@ filetype plugin indent on
 
 syntax enable
 set background=dark
+set t_Co=16
 colorscheme solarized
 
 set tabstop=4
