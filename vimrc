@@ -6,7 +6,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
+if filereadable(expand('~/.at_google'))
+else
 Plugin 'Valloric/YouCompleteMe'
+endif
 Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'sickill/vim-monokai'
@@ -47,6 +50,6 @@ set linebreak
 set showcmd
 set wildmenu
 
-if filereadable($HOME . "/.vimrc_local")
+if filereadable(expand('~/.vimrc_local'))
     source ~/.vimrc_local
 endif
