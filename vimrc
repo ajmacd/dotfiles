@@ -14,6 +14,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'sickill/vim-monokai'
 Plugin 'rust-lang/rust.vim'
+Plugin 'ntpeters/vim-better-whitespace'
 
 call vundle#end()
 filetype plugin indent on
@@ -30,8 +31,6 @@ set ruler
 
 " Use Google style conventions for C++.
 autocmd Filetype cpp setlocal ts=2 sw=2 expandtab
-
-set list listchars=tab:>-,trail:·
 
 " Searching
 set incsearch

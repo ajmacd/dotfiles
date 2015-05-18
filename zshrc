@@ -17,6 +17,8 @@ export EDITOR="$VISUAL"
 
 PATH="$HOME/bin:$PATH"
 
+export INC_APPEND_HISTORY=false
+
 # Fix history-substring-search plugin.
 bindkey "$terminfo[cuu1]" history-substring-search-up
 bindkey "$terminfo[cud1]" history-substring-search-down
