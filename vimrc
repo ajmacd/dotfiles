@@ -33,6 +33,9 @@ set shiftwidth=4
 set expandtab
 set ruler
 
+" Make backspace work on OSX.
+set backspace=indent,eol,start
+
 " Use Google style conventions for C++.
 autocmd Filetype cpp setlocal ts=2 sw=2 expandtab
 
