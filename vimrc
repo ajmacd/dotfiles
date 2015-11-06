@@ -6,10 +6,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
-if filereadable(expand('~/.at_google'))
-else
 Plugin 'Valloric/YouCompleteMe'
-endif
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'FelikZ/ctrlp-py-matcher'
 Plugin 'kien/ctrlp.vim'
@@ -56,6 +53,10 @@ set linebreak
 " Show partial commands
 set showcmd
 set wildmenu
+
+" Map escape to jk and disable escape.
+inoremap jk <esc>
+inoremap <esc> <nop>
 
 let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 
