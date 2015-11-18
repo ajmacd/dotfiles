@@ -7,10 +7,10 @@ $ mkdir $HOME/tmp
 ```
 
 ###Install homebrew
-http://brew.sh/
 
 ###Vundle setup
 https://github.com/VundleVim/Vundle.vim
+
 Launch vim and run :PluginInstall
 
 ###Finish YouCompleteMe setup
@@ -25,8 +25,7 @@ $ ./install.py --clang-completer
 http://git-prompt.sh/
 
 ###Install zsh
-Mac
-Add /usr/local/bin/zsh to /etc/shells
+[OSX] Add /usr/local/bin/zsh to /etc/shells
 ```
 $ brew install zsh
 $ chsh -s /usr/local/bin/zsh
