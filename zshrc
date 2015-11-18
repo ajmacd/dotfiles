@@ -3,19 +3,16 @@ source ~/.zsh/antigen/antigen.zsh
 antigen use oh-my-zsh
 antigen bundle vi-mode
 
-antigen bundle sindresorhus/pure
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen apply
 
-# Pure theme settings.
-export PURE_GIT_UNTRACKED_DIRTY=0
-
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-PATH="$HOME/bin:$PATH"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 export INC_APPEND_HISTORY=false
 
@@ -27,3 +24,5 @@ if [ -f ~/.zshrc_local ]; then
     source ~/.zshrc_local
 fi
 
+source ~/.git-prompt.sh
+precmd () { __git_ps1 "%n" ":%~$ " "|%s" }
