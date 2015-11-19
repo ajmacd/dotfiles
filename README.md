@@ -6,32 +6,35 @@ $ ./install
 $ mkdir $HOME/tmp
 ```
 
-###Install homebrew
+* Install homebrew
 
-###Vundle setup
-https://github.com/VundleVim/Vundle.vim
+* [Vundle](https://github.com/VundleVim/Vundle.vim) setup:
 
-Launch vim and run :PluginInstall
+  Launch vim and run :PluginInstall
 
-###Finish YouCompleteMe setup
-https://github.com/Valloric/YouCompleteMe
+* Finish [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) setup:
 ```
 $ brew install cmake
 $ cd ~/.vim/bundle/YouCompleteMe
 $ ./install.py --clang-completer
 ```
 
-###Get git-prompt
-http://git-prompt.sh/
+* Get [git-prompt](http://git-prompt.sh/)
 
-###Install zsh
-[OSX] Add /usr/local/bin/zsh to /etc/shells
-```
-$ brew install zsh
-$ chsh -s /usr/local/bin/zsh
-```
+* Install zsh:
 
-###Install iTerm2
+  [OSX] Add /usr/local/bin/zsh to /etc/shells
 
-###Setup solarized with iTerm2
-`$ git clone https://github.com/altercation/solarized`
+  ```
+  $ brew install zsh
+  $ chsh -s /usr/local/bin/zsh
+  ```
+
+* iTerm2
+
+  Set up solarized with iTerm2
+  `$ git clone https://github.com/altercation/solarized`
+
+* XCode
+
+  Install [Alcatraz package manager](https://github.com/alcatraz/Alcatraz) and get XVim and Solarized   packages.

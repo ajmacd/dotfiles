@@ -1,0 +1,3 @@
+" Map escape to jk and disable escape.
+inoremap jk <esc>
+inoremap <esc> <nop>
