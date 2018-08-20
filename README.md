@@ -19,7 +19,7 @@ $ mkdir $HOME/tmp
    $ ./install.py --clang-completer
    ```
 
-* Get [git-prompt](http://git-prompt.sh/).
+* Get [git-prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
 
 * Install zsh.
 
