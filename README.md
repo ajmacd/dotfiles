@@ -1,6 +1,6 @@
-#dotfiles
+# dotfiles
 
-##Setup instructions
+## Setup instructions
 ```
 $ ./install
 $ mkdir $HOME/tmp
