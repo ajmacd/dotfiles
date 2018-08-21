@@ -5,6 +5,7 @@ antigen bundle vi-mode
 
 antigen bundle zsh-users/zsh-history-substring-search
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle git
 
 antigen apply
 
@@ -13,6 +14,9 @@ export EDITOR="$VISUAL"
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
 
 export INC_APPEND_HISTORY=false
 
@@ -33,12 +37,6 @@ if [ $(uname) = "Darwin" ]; then
     # Solarized ls colors.
     export LSCOLORS=gxfxbEaEBxxEhEhBaDaCaD
 fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-#nvm use --delete-prefix v8.1.
 
 if [ -f ~/.zshrc_local ]; then
     source ~/.zshrc_local
