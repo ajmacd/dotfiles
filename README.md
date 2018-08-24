@@ -1,27 +1,12 @@
 # dotfiles
 
 ## Setup instructions
-```
-$ ./install
-$ mkdir $HOME/tmp
-```
+* Install iTerm2.
 
-* Install homebrew.
-
-* [Vundle](https://github.com/VundleVim/Vundle.vim) setup.
-
-  Launch vim and run :PluginInstall
-
-* Finish [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) setup.
-   ```
-   $ brew install cmake
-   $ cd ~/.vim/bundle/YouCompleteMe
-   $ ./install.py --clang-completer
-   ```
-
-* Get [git-prompt](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh).
-
-* Install zsh.
+  Set up solarized with iTerm2
+  `$ git clone https://github.com/altercation/solarized`
+  
+* Install zsh:
 
   [OSX] Add /usr/local/bin/zsh to /etc/shells
 
@@ -30,11 +15,30 @@ $ mkdir $HOME/tmp
   $ chsh -s /usr/local/bin/zsh
   ```
 
-* Install iTerm2.
+* Install homebrew and packages:
+```
+$ brew install ag
+```
 
-  Set up solarized with iTerm2
-  `$ git clone https://github.com/altercation/solarized`
+* Install VS Code.
 
-* XCode.
+* Setup dotfiles:
+```
+$ ./install
+$ mkdir $HOME/tmp
+```
 
-  Install [Alcatraz package manager](https://github.com/alcatraz/Alcatraz) and get XVim and Solarized   packages.
+* [Vundle](https://github.com/VundleVim/Vundle.vim) setup:
+
+  Launch vim and run :PluginInstall
+
+* Finish [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) setup:
+   ```
+   $ brew install cmake
+   $ cd ~/.vim/bundle/YouCompleteMe
+   $ ./install.py --clang-completer
+   ```
+
+* Install LastPass.
+* Install Spectacle.
+* Install flux.
