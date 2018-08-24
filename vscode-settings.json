@@ -1,0 +1,64 @@
+{
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "editor.renderWhitespace": "boundary",
+    "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-d>": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "typescript", "autoFix": true },
+        "typescriptreact"
+    ],
+    "window.zoomLevel": 0,
+    "typescript.check.npmIsInstalled": false,
+    "emojisense.languages": {
+        "javascript": true
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "editor.multiCursorModifier": "alt",
+    //"[hack]": {
+    //    "editor.tabSize": 8,
+    //    "editor.insertSpaces": false 
+    //},
+    "[javascript]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false 
+    },
+    "[php]": {
+        "editor.tabSize": 8,
+        "editor.insertSpaces": false 
+    },
+    "[typescript]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false 
+    },
+    "cSpell.userWords": [
+        "Muxed",
+        "acks",
+        "call",
+        "jsep",
+        "keepalive",
+        "lagunitas",
+        "middlewares",
+        "plugindata",
+        "upsert",
+        "videoroom",
+        "wolfman"
+    ],
+    "terminal.integrated.rendererType": "dom",
+    // "terminal.integrated.fontFamily": "Input Mono",
+    // "editor.fontFamily": "Input Mono",
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Monaco",
+    "editor.fontSize": 12,
+}
