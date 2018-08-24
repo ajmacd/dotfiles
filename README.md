@@ -4,7 +4,9 @@
 * Install iTerm2.
 
   Set up solarized with iTerm2
-  `$ git clone https://github.com/altercation/solarized`
+  ```
+  $ git clone https://github.com/altercation/solarized
+  ````
   
 * Install zsh:
 
