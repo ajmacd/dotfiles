@@ -1,64 +1,101 @@
 {
-    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
-    "editor.renderWhitespace": "boundary",
-    "vim.easymotion": true,
-    "vim.useSystemClipboard": true,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j","k"],
-            "after": ["<Esc>"]
-        }
-    ],
-    "vim.handleKeys": {
-        "<C-d>": true
-    },
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        { "language": "typescript", "autoFix": true },
-        "typescriptreact"
-    ],
-    "window.zoomLevel": 0,
-    "typescript.check.npmIsInstalled": false,
-    "emojisense.languages": {
-        "javascript": true
-    },
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "editor.multiCursorModifier": "alt",
-    //"[hack]": {
-    //    "editor.tabSize": 8,
-    //    "editor.insertSpaces": false 
-    //},
-    "[javascript]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": false 
-    },
-    "[php]": {
-        "editor.tabSize": 8,
-        "editor.insertSpaces": false 
-    },
-    "[typescript]": {
-        "editor.tabSize": 4,
-        "editor.insertSpaces": false 
-    },
-    "cSpell.userWords": [
-        "Muxed",
-        "acks",
-        "call",
-        "jsep",
-        "keepalive",
-        "lagunitas",
-        "middlewares",
-        "plugindata",
-        "upsert",
-        "videoroom",
-        "wolfman"
-    ],
-    "terminal.integrated.rendererType": "dom",
-    // "terminal.integrated.fontFamily": "Input Mono",
-    // "editor.fontFamily": "Input Mono",
-    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
-    "terminal.integrated.fontFamily": "Monaco",
-    "editor.fontSize": 12,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "editor.renderWhitespace": "boundary",
+  "vim.easymotion": true,
+  "vim.useSystemClipboard": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-d>": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "window.zoomLevel": 0,
+  "typescript.check.npmIsInstalled": false,
+  "emojisense.languages": {
+    "javascript": true,
+    "typescript": true,
+    "ruby": true
+  },
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.multiCursorModifier": "alt",
+  "hack.hhastPath": "vendor/splinter/vendor/bin/hhast-lint",
+  "hack.hhastLintMode": "open-files",
+  "[hack]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "[graphql]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  "[javascript]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "[typescript]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false
+  },
+  "cSpell.userWords": [
+    "Muxed",
+    "Screenhero",
+    "acks",
+    "call",
+    "camelcase",
+    "clogger",
+    "dscp",
+    "enabled",
+    "interop",
+    "is",
+    "jsep",
+    "keepalive",
+    "lagunitas",
+    "middlewares",
+    "oauth",
+    "orgs",
+    "plugindata",
+    "prefs",
+    "screenshare",
+    "upsert",
+    "use",
+    "videoroom",
+    "webrtc",
+    "wolfman"
+  ],
+  "terminal.integrated.rendererType": "dom",
+  // "terminal.integrated.fontFamily": "Input Mono",
+  // "editor.fontFamily": "Input Mono",
+  "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "Monaco",
+  "editor.fontSize": 12,
+  "hack.rememberedWorkspaces": {
+    "/Users/ajm/src/checkpoint": "trusted",
+    "/Users/ajm/src/webapp": "trusted"
+  },
+  "latex-workshop.view.pdf.viewer": "tab",
+  "files.associations": {
+    ".graphqlconfig": "json",
+    "*.api": "json"
+  },
+  "python.jediEnabled": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.formatOnSave": true
 }
